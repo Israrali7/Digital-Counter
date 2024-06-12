@@ -1,0 +1,57 @@
+*{
+    margin-top: 40px;
+    padding: 0;
+}
+body{
+    background-color: rgb(232, 85, 232);
+    background: linear-gradient(
+    90deg,
+     rgb(210, 110, 102)0%,
+     rgb(113, 166, 206)100%
+    )
+}
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+div.main{
+    background-color: #ffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+#title{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.btn button{
+    color: rgb(1, 1, 12);
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight:  600;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#Decrement{
+    background-color:rgb(224, 250, 93) ;
+}
+#Decrement:hover{
+    background-color: rgb(251, 251, 49);   
+}
+#Increment{
+    background-color:rgb(101, 250, 93) ;
+}
+#Increment:hover{
+    background-color: rgb(24, 227, 24);   
+}
+#Reset{
+    background-color:rgb(252, 93, 93) ;
+}
+#Reset:hover{
+    background-color: rgb(251, 34, 34);   
+}
